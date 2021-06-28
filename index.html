@@ -1,53 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google</title>
+  <style>
+    .top-menu {
+      display: flex;
+    }
+
+    .top-menu a {
+      text-decoration: none;
+      color: rgb(0,0,0);
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      display: block;
+      padding: 8px;
+    }
+
+    .top-menu .left {
+      display: flex;
+    }
+
+    .top-menu .left .about {
+      margin-left: 15px;
+    }
+
+    .top-menu .left .store {
+    }
+
+    .top-menu .center {
+      display: flex;
+    }
+
+    .top-menu .right {
+      display: flex;
+      margin-left: auto;
+      margin-right: 15px;
+    }
+
+    .top-menu .right .gmail {
+    }
+
+    .top-menu .right .images {
+    }
+
+    .top-menu .right .apps {
+    }
+
+    .top-menu .right .account {
+    }
+
+    .google-logo {
+      display: flex;
+      justify-content: center;
+    }
+
+    .search-box {
+      display: flex;
+      justify-content: center;
+    }
+
+    .search-buttons {
+      display: flex;
+      justify-content: center;
+    }
+
+    .info {
+      display: flex;
+      justify-content: center;
+    }
+
+    .language {
+      display: flex;
+      justify-content: center;
+    }
+
+    .language .label {
+      display: flex;
+      justify-content: center;
+    }
+
+    .language .name {
+      display: flex;
+      justify-content: center;
+      color: purple;
+    }
+
+    .country {
+      display: flex;
+      justify-content: flex-start;
+      background-color: rgb(238, 234, 234);
+    }
+
+    .country a {
+      text-decoration: none;
+      color: rgb(34,34,34);
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      display: block;
+      padding: 8px;
+    }
+
+    .country-name {
+      display: flex;
+      margin-left: 15px;
+    }
+
+    .bottom-menu {
+      display: flex;
+      background-color: rgb(238, 234, 234);
+    }
+
+    .bottom-menu a {
+      text-decoration: none;
+      color: rgb(34,34,34);
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      display: block;
+      padding: 8px;
+    }
+
+    .bottom-menu .left {
+      display: flex;
+      margin-left: 15px;
+    }
+
+    .bottom-menu .left .advertising {
+    }
+
+    .bottom-menu .left .business {
+    }
+
+    .bottom-menu .left .howsearchworks {
+    }
+
+    .bottom-menu .center {
+      display: flex;
+    }
+
+    .bottom-menu .right {
+      display: flex;
+      margin-left: auto;
+      margin-right: 15px;
+    }
+
+    .bottom-menu .right .privacy {
+    }
+
+    .bottom-menu .right .terms {
+    }
+
+    .bottom-menu .right .settings {
+    }
+  </style>
 </head>
 <body>
-</body>
+  <div class="page">
     <header>
-        <nav class="menu">
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Store</a></li>
-              <li><a href="#">Gmail</a></li>
-              <li><a href="#">Images</a></li>
-              <li>
-                  <a href="https://www.google.ca/intl/en/about/products">Google Apps</a>
-
-                </li>
-              <li><a href="#">Google Account</a></li>
-            </ul>
-          </nav>
+      <div class="top-menu">
+        <div class="left">
+          <div class="about"><a href="#">About</a></div>
+          <div class="store"><a href="#">Store</a></div>
+        </div>
+        <div class="center">
+        </div>
+        <div class="right">
+          <div class="gmail"><a href="#">Gmail</a></div>
+          <div class="images"><a href="#">Images</a></div>
+          <div class="apps">
+            <a href="https://www.google.ca/intl/en/about/products">
+              <img src="Screen Shot 2021-06-23 at 5.42.01 PM.png" alt="Google apps">
+            </a>
+          </div>
+          <div class="account">
+           <a href="#">
+             <img src="Screen Shot 2021-06-24 at 4.58.30 PM.png" alt="Google Account">
+           </a>
+          </div>
+        </div>
+      </div>
     </header>
-    <hr>
     <main>
+      <div class="google-logo">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google" height="92" width="272">
+      </div>
+      <div class="search-box">
         <input type="text" name="" id="">
+      </div>
+      <div class="search-buttons">
         <input type="button" value="Google Search">
         <input type="button" value="I'm Feeling Lucky">
-        <hr>
-        <p>To our local shops and favourite spots, Happy International Small Business Week!
-        </p>
-        <p>Google offered in: Français</p>
+      </div>
+      <div class="info">
+        <p>To our local shops and favourite spots, Happy International Small Business Week!</p>
+      </div>
+      <div class="language">
+        <div class="label"><p>Google offered in:</p></div>
+        <div class="name"><p>Français</p></div>
+      </div>
     </main>
-    <hr>
     <footer>
-        <div>
-            <p>Canada</p>
+      <div class="country">
+        <div class="country-name">
+          <a href="#">Canada</a>
         </div>
-        <nav class="footer-menu">
-            <ul>
-              <li><a href="#">Advertising</a></li>
-              <li><a href="#">Business</a></li>
-              <li><a href="#">How Search works</a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Terms</a></li>
-              <li><a href="#">Settings</a></li>
-            </ul>
-          </nav>
+      </div>
+      <div class="bottom-menu">
+          <div class="left">
+            <div class="advertising"><a href="#">Advertising</a></div>
+            <div class="business"><a href="#">Business</a></div>
+            <div class="howsearchworks"><a href="#">How Search works</a></div>
+          </div>
+          <div class="center">
+          </div>
+          <div class="right">
+            <div class="privacy"><a href="#">Privacy</a></div>
+            <div class="terms"><a href="#">Terms</a></div>
+            <div class="settings"><a href="#">Settings</a></div>
+          </div>
+        </div>
     </footer>
-</html>
+  </div>
+  </body>
+  </html>
