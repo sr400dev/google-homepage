@@ -1,0 +1,30 @@
+body {
+//    display: flex;
+    background-color: blue;
+    margin: 0;
+    border: 0;
+}
+
+.top {
+//    display: flex;
+    background-color: rgb(165, 119, 51);
+    height: 100vh;
+}
+
+.top-left {
+//    display: flex;
+    background-color: burlywood;
+    height: 100px;
+}
+
+.top-center {
+//    display: flex;
+    background-color: rgb(133, 110, 81);
+    height: 100px;
+}
+
+.top-right {
+//    display: flex;
+    background-color: rgb(48, 39, 28);
+    height: 100px;
+}

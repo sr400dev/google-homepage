@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<style>
+		#outer {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			height: 120px;
+			width: 516px;
+		}
+
+		.div {
+			width: 90px;
+			flex: 0 0 50px;
+			margin: 5px;
+			background-color: green;
+		}
+
+		.big {
+			flex-basis: 110px;
+		}
+	</style>
+</head>
+
+<body style="text-align:center;">
+	<h1 style="color:green;">
+		GeeksForGeeks
+	</h1>
+
+	<p id="GFG_UP">
+		How to make a div span two
+		rows in a grid using CSS
+	</p>
+	
+	<div id="outer">
+		<div class="div"></div>
+		<div class="div"></div>
+		<div class="div big"></div>
+		<div class="div"></div>
+		<div class="div"></div>
+		<div class="div"></div>
+		<div class="div"></div>
+		<div class="div"></div>
+		<div class="div"></div>
+	</div>
+</body>
+
+</html>
